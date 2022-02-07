@@ -1,6 +1,7 @@
 :root {
   --black: #212121;
   --gray: #757575;
+  --accent-color: #2196f3;
 }
 
 .list {
@@ -9,6 +10,21 @@
 
 a {
   text-decoration: none;
+}
+
+.header-logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+.header-logo-web {
+  color: var(--accent-color);
 }
 
 .header-nav-list,
@@ -24,14 +40,14 @@ a {
 .header-nav-link:focus,
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-nav-link {
   color: var(--black);
 }
 
-.header-contacts a {
+.header-contacts-link {
   color: var(--gray);
 }
 
@@ -68,77 +84,132 @@ a {
   background-color: #188ce8;
 }
 
-.filter-button-one {
-  position: absolute;
-  width: 73px;
-  height: 38px;
-  left: 495px;
-  top: 174px;
+.about-us-header {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-  background: #f5f4fa;
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+  color: #212121;
 }
 
-.filter-button-two {
-  position: absolute;
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
+.about-us-description {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
 
-  background: #f5f4fa;
-  border-radius: 4px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
 
-.filter-button-three {
-  position: absolute;
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  top: 174px;
+.what-we-do-header {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-  background: #f5f4fa;
-  border-radius: 4px;
+  color: #212121;
 }
 
-.filter-button-four {
-  position: absolute;
-  width: 103px;
-  height: 38px;
-  left: 865px;
-  top: 174px;
+.team-header {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-  background: #f5f4fa;
-  border-radius: 4px;
+  color: #212121;
 }
 
-.filter-button-five {
-  position: absolute;
-  width: 130px;
-  height: 38px;
-  left: 976px;
-  top: 174px;
-
-  background: #f5f4fa;
-  border-radius: 4px;
-  position: absolute;
-  width: 86px;
-  height: 26px;
-  left: 998px;
-  top: 180px;
-
-  font-family: Roboto;
+.team-member-name {
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
+  line-height: 1.19;
 
   text-align: center;
   letter-spacing: 0.03em;
 
   color: #212121;
+}
+
+.team-member-position {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.footer-section {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.footer-logo-web {
+  color: var(--accent-color);
+}
+
+.footer-address {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.footer-contacts-link {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.filter-button-all {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
 }
