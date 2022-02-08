@@ -202,14 +202,53 @@ a {
   color: var(--accent-color);
 }
 
-.filter-button-all {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
+.project-name {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
+
+  color: #212121;
+}
+
+.project-type {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.filter-button-all,
+.filter-button-web,
+.filter-button-app,
+.filter-button-design,
+.filter-button-marketing {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.filter-button-all:hover,
+.filter-button-all:focus,
+.filter-button-web:hover,
+.filter-button-web:focus,
+.filter-button-app:hover,
+.filter-button-app:focus,
+.filter-button-design:hover,
+.filter-button-design:focus,
+.filter-button-marketing:hover,
+.filter-button-marketing:focus {
+  background: var(--accent-color);
 }
