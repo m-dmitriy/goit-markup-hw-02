@@ -51,6 +51,19 @@ a {
   color: var(--gray);
 }
 
+.hero {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
 .main-section {
   background: #2f303a;
 }
@@ -77,11 +90,13 @@ a {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
+  cursor: pointer;
 }
 
 .main-section-button:hover,
 .main-section-button:focus {
   background-color: #188ce8;
+  cursor: pointer;
 }
 
 .about-us-header {
@@ -226,29 +241,127 @@ a {
   color: #757575;
 }
 
-.filter-button-all,
-.filter-button-web,
-.filter-button-app,
-.filter-button-design,
-.filter-button-marketing {
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
+.filter-button-all {
+  position: absolute;
+  width: 29px;
+  height: 26px;
+  left: 517px;
+  top: 180px;
 
-  background: #f5f4fa;
-  border-radius: 4px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  cursor: pointer;
 }
 
 .filter-button-all:hover,
-.filter-button-all:focus,
+.filter-button-all:focus {
+  background-color: var(--accent-color);
+}
+
+.filter-button-web {
+  position: absolute;
+  width: 84px;
+  height: 26px;
+  left: 598px;
+  top: 180px;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  cursor: pointer;
+}
+
 .filter-button-web:hover,
-.filter-button-web:focus,
+.filter-button-web:focus {
+  background-color: var(--accent-color);
+}
+
+.filter-button-app {
+  position: absolute;
+  width: 101px;
+  height: 26px;
+  left: 734px;
+  top: 180px;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  cursor: pointer;
+}
+
 .filter-button-app:hover,
-.filter-button-app:focus,
+.filter-button-app:focus {
+  background-color: var(--accent-color);
+}
+
+.filter-button-design {
+  position: absolute;
+  width: 59px;
+  height: 26px;
+  left: 887px;
+  top: 180px;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  cursor: pointer;
+}
+
 .filter-button-design:hover,
-.filter-button-design:focus,
+.filter-button-design:focus {
+  background-color: var(--accent-color);
+}
+
+.filter-button-marketing {
+  position: absolute;
+  width: 86px;
+  height: 26px;
+  left: 998px;
+  top: 180px;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  cursor: pointer;
+}
+
 .filter-button-marketing:hover,
 .filter-button-marketing:focus {
-  background: var(--accent-color);
+  background-color: var(--accent-color);
 }
